@@ -1,97 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
-		<link href="./_app/immutable/assets/_layout.6980ceb0.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/_page.14a922dc.css" rel="stylesheet"><title>Jimmy Cai</title><!-- HEAD_svelte-tex75j_START --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"><meta name="description" content="Undergraduate student / Front-end / CN &amp; EN &amp; ES">
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.sticky-image {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 
-<meta property="og:title" content="Jimmy Cai">
-<meta property="og:description" content="Undergraduate student / Front-end / CN &amp; EN &amp; ES">
-<meta property="og:image" content="https://res.cloudinary.com/jimmycai/image/upload/avatar.png">
-<meta property="og:url" content="https://jimmycai.com">
-<meta property="og:type" content="website">
+.cover-content {
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 2000px;
+  z-index: 2;
+}
+</style>
+</head>
+<body>
 
-
-<meta name="twitter:site" content="@0xJimmy">
-<meta name="twitter:creator" content="@0xJimmy">
-<meta name="twitter:title" content="Jimmy Cai">
-<meta name="twitter:description" content="Undergraduate student / Front-end / CN &amp; EN &amp; ES">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://res.cloudinary.com/jimmycai/image/upload/avatar.png">
-
-
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff"><!-- HEAD_svelte-tex75j_END --><!-- HEAD_svelte-am43o3_START --><!-- HEAD_svelte-am43o3_END -->
-	</head>
-	<body>
-		<div id="svelte">
-
-
-
-
-
-
-<div class="bg-hex-1A1D1A min-h-100vh flex flex-col"><header class="svelte-1ena5bt"><div class="mx-auto max-w-1024px py-60px md:py-80px xl:py-120px px-20px"><div class="flex flex-col gap-30px items-start"><svg width="182" height="182" viewBox="0 0 182 182" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="w-120px h-120px md:w-150px md:h-150px lg:w-180px lg:h-180px"><path d="M65.8329 7.61157C81.0982 -2.46432 100.902 -2.46432 116.167 7.61157V7.61157C121.03 10.8211 126.461 13.0708 132.169 14.2397V14.2397C150.088 17.9091 164.091 31.9124 167.76 49.8313V49.8313C168.929 55.539 171.179 60.9705 174.388 65.8329V65.8329C184.464 81.0982 184.464 100.902 174.388 116.167V116.167C171.179 121.03 168.929 126.461 167.76 132.169V132.169C164.091 150.088 150.088 164.091 132.169 167.76V167.76C126.461 168.929 121.03 171.179 116.167 174.388V174.388C100.902 184.464 81.0982 184.464 65.8329 174.388V174.388C60.9705 171.179 55.539 168.929 49.8313 167.76V167.76C31.9124 164.091 17.9091 150.088 14.2397 132.169V132.169C13.0708 126.461 10.8211 121.03 7.61157 116.167V116.167C-2.46432 100.902 -2.46432 81.0982 7.61157 65.8329V65.8329C10.8211 60.9705 13.0708 55.539 14.2397 49.8313V49.8313C17.9091 31.9124 31.9123 17.9091 49.8313 14.2397V14.2397C55.539 13.0708 60.9705 10.8211 65.8329 7.61157V7.61157Z" fill="#C4C4C4"></path><path d="M65.8329 7.61157C81.0982 -2.46432 100.902 -2.46432 116.167 7.61157V7.61157C121.03 10.8211 126.461 13.0708 132.169 14.2397V14.2397C150.088 17.9091 164.091 31.9124 167.76 49.8313V49.8313C168.929 55.539 171.179 60.9705 174.388 65.8329V65.8329C184.464 81.0982 184.464 100.902 174.388 116.167V116.167C171.179 121.03 168.929 126.461 167.76 132.169V132.169C164.091 150.088 150.088 164.091 132.169 167.76V167.76C126.461 168.929 121.03 171.179 116.167 174.388V174.388C100.902 184.464 81.0982 184.464 65.8329 174.388V174.388C60.9705 171.179 55.539 168.929 49.8313 167.76V167.76C31.9124 164.091 17.9091 150.088 14.2397 132.169V132.169C13.0708 126.461 10.8211 121.03 7.61157 116.167V116.167C-2.46432 100.902 -2.46432 81.0982 7.61157 65.8329V65.8329C10.8211 60.9705 13.0708 55.539 14.2397 49.8313V49.8313C17.9091 31.9124 31.9123 17.9091 49.8313 14.2397V14.2397C55.539 13.0708 60.9705 10.8211 65.8329 7.61157V7.61157Z" fill="url(#pattern0)"></path><defs><pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1"><use xlink:href="#image0_14_11" transform="scale(0.00138889)"></use></pattern><image id="image0_14_11" width="720" height="720" xlink:href="https://res.cloudinary.com/jimmycai/image/upload/c_scale,f_auto,w_200/avatar.png"></image></defs></svg>
-            <div class="flex flex-col gap-20px"><h1 class="text-36px font-extrabold text-hex-fff">Jimmy Cai</h1>
-                <h2 class="text-18px text-hex-fff text-opacity-50 leading-7">Full time Computer Science student, part time developer.</h2></div>
-            <div class="flex rounded-full bg-hex-383934 py-8px px-8px md:py-10px md:px-10px text-14px"><a href="mailto:hi@jimmycai.com" class="flex gap-15px rounded-full bg-hex-D9EAD7 py-8px px-15px md:py-10px md:px-20px items-center"><!-- HTML_TAG_START --><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="ai ai-Envelope"><path d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6z"/><path d="M2 8l7.501 6.001a4 4 0 0 0 4.998 0L22 8"/></svg><!-- HTML_TAG_END -->
-                    <span class="text-hex-363C33 font-bold">hi@jimmycai.com</span></a></div></div></div>
-</header>
-	<div class="main bg-hex-EDEFE3 rounded-t-50px flex-1 py-15px pb-50px lg:py-50px svelte-16y6iu1"><div class="mx-auto max-w-1024px px-10px lg:px-20px gap-40px flex flex-col"><div class="flex flex-col bg-hex-FCF9EF px-30px py-40px lg:p-40px gap-20px rounded-50px"><div class="flex items-center justify-between"><span class="uppercase font-bold text-18px text-hex-000">Links</span>
-        </div>
-    <div class="grid gap-20px md:grid-cols-3">
-        <a href="https://github.com/CaiJimmy" class="bg-hex-F6F3D4 rounded-20px lg:rounded-30px py-20px px-30px flex gap-30px items-center" target="_blank" rel="me noopener noreferrer"><div class="icon svelte-1kp182d"><!-- HTML_TAG_START --><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" class="ai ai-GithubFill"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg><!-- HTML_TAG_END --></div>
-    <div class="flex flex-col gap-5px"><span class="font-bold text-18px">Github</span>
-        <span class="font-semibold tracking-wider text-11px opacity-70">@CaiJimmy</span></div>
-</a>
-        <a href="https://twitter.com/0xJimmy" class="bg-hex-F6F3D4 rounded-20px lg:rounded-30px py-20px px-30px flex gap-30px items-center" target="_blank" rel="me noopener noreferrer"><div class="icon svelte-1kp182d"><!-- HTML_TAG_START --><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke-width="2" class="ai ai-TwitterFill"><path d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578 9.3 9.3 0 0 1-2.958 1.13 4.66 4.66 0 0 0-7.938 4.25 13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568 4.692 4.692 0 0 1-2.104.08 4.661 4.661 0 0 0 4.352 3.234 9.348 9.348 0 0 1-5.786 1.995 9.5 9.5 0 0 1-1.112-.065 13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003z"/></svg><!-- HTML_TAG_END --></div>
-    <div class="flex flex-col gap-5px"><span class="font-bold text-18px">Twitter</span>
-        <span class="font-semibold tracking-wider text-11px opacity-70">@0xJimmy</span></div>
-</a>
-        <a href="https://mas.to/@jimmy" class="bg-hex-F6F3D4 rounded-20px lg:rounded-30px py-20px px-30px flex gap-30px items-center" target="_blank" rel="me noopener noreferrer"><div class="icon svelte-1kp182d"><!-- HTML_TAG_START --><svg width="74" height="79" viewBox="0 0 74 79" fill="black" xmlns="http://www.w3.org/2000/svg">
-<path d="M73.7014 17.4323C72.5616 9.05152 65.1774 2.4469 56.424 1.1671C54.9472 0.950843 49.3518 0.163818 36.3901 0.163818H36.2933C23.3281 0.163818 20.5465 0.950843 19.0697 1.1671C10.56 2.41145 2.78877 8.34604 0.903306 16.826C-0.00357854 21.0022 -0.100361 25.6322 0.068112 29.8793C0.308275 35.9699 0.354874 42.0498 0.91406 48.1156C1.30064 52.1448 1.97502 56.1419 2.93215 60.0769C4.72441 67.3445 11.9795 73.3925 19.0876 75.86C26.6979 78.4332 34.8821 78.8603 42.724 77.0937C43.5866 76.8952 44.4398 76.6647 45.2833 76.4024C47.1867 75.8033 49.4199 75.1332 51.0616 73.9562C51.0841 73.9397 51.1026 73.9184 51.1156 73.8938C51.1286 73.8693 51.1359 73.8421 51.1368 73.8144V67.9366C51.1364 67.9107 51.1302 67.8852 51.1186 67.862C51.1069 67.8388 51.0902 67.8184 51.0695 67.8025C51.0489 67.7865 51.0249 67.7753 50.9994 67.7696C50.9738 67.764 50.9473 67.7641 50.9218 67.7699C45.8976 68.9569 40.7491 69.5519 35.5836 69.5425C26.694 69.5425 24.3031 65.3699 23.6184 63.6327C23.0681 62.1314 22.7186 60.5654 22.5789 58.9744C22.5775 58.9477 22.5825 58.921 22.5934 58.8965C22.6043 58.8721 22.621 58.8505 22.6419 58.8336C22.6629 58.8167 22.6876 58.8049 22.714 58.7992C22.7404 58.7934 22.7678 58.794 22.794 58.8007C27.7345 59.9796 32.799 60.5746 37.8813 60.5733C39.1036 60.5733 40.3223 60.5733 41.5447 60.5414C46.6562 60.3996 52.0437 60.1408 57.0728 59.1694C57.1983 59.1446 57.3237 59.1233 57.4313 59.0914C65.3638 57.5847 72.9128 52.8555 73.6799 40.8799C73.7086 40.4084 73.7803 35.9415 73.7803 35.4523C73.7839 33.7896 74.3216 23.6576 73.7014 17.4323ZM61.4925 47.3144H53.1514V27.107C53.1514 22.8528 51.3591 20.6832 47.7136 20.6832C43.7061 20.6832 41.6988 23.2499 41.6988 28.3194V39.3803H33.4078V28.3194C33.4078 23.2499 31.3969 20.6832 27.3894 20.6832C23.7654 20.6832 21.9552 22.8528 21.9516 27.107V47.3144H13.6176V26.4937C13.6176 22.2395 14.7157 18.8598 16.9118 16.3545C19.1772 13.8552 22.1488 12.5719 25.8373 12.5719C30.1064 12.5719 33.3325 14.1955 35.4832 17.4394L37.5587 20.8853L39.6377 17.4394C41.7884 14.1955 45.0145 12.5719 49.2765 12.5719C52.9614 12.5719 55.9329 13.8552 58.2055 16.3545C60.4017 18.8574 61.4997 22.2371 61.4997 26.4937L61.4925 47.3144Z" fill="inherit"/>
-</svg>
-<!-- HTML_TAG_END --></div>
-    <div class="flex flex-col gap-5px"><span class="font-bold text-18px">Mastodon</span>
-        <span class="font-semibold tracking-wider text-11px opacity-70">@jimmy@mas.to</span></div>
-</a></div></div>
-			<div class="flex flex-col bg-hex-FCF9EF px-30px py-40px lg:p-40px gap-20px rounded-50px"><div class="flex items-center justify-between"><span class="uppercase font-bold text-18px text-hex-000">Projects</span>
-        </div>
-    <div class="gap-20px grid md:grid-cols-3"><a class="bg-hex-F6F3D4 flex flex-col rounded-40px overflow-hidden" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener noreferrer"><img class="h-100px object-cover" src="https://res.cloudinary.com/jimmycai/image/upload/c_scale,f_auto,h_200/v1642886220/homepage/stack.jpg" alt="Cover image of project Hugo Theme Stack" loading="lazy">
-                <div class="uppercase flex flex-col p-20px px-25px flex-1 text-hex-000"><span class="font-bold">Hugo Theme Stack</span>
-                    <span class="font-semibold text-xs leading-5 opacity-70">Card-style Hugo theme designed for bloggers
-                    </span></div>
-            </a><a class="bg-hex-F6F3D4 flex flex-col rounded-40px overflow-hidden" href="https://github.com/CaiJimmy/card" target="_blank" rel="noopener noreferrer"><img class="h-100px object-cover" src="https://res.cloudinary.com/jimmycai/image/upload/c_scale,f_auto,h_200/v1642886166/homepage/card.png" alt="Cover image of project Card" loading="lazy">
-                <div class="uppercase flex flex-col p-20px px-25px flex-1 text-hex-000"><span class="font-bold">Card</span>
-                    <span class="font-semibold text-xs leading-5 opacity-70">A Material Design Homepage
-                    </span></div>
-            </a></div></div>
-
-			<div class="flex flex-col bg-hex-FCF9EF px-30px py-40px lg:p-40px gap-20px rounded-50px"><div class="flex items-center justify-between"><span class="uppercase font-bold text-18px text-hex-000">Gallery</span>
-        <a href="https://photos.app.goo.gl/LJdniuve9T5Xhz2E8" class="rounded-full uppercase font-bold text-14px bg-hex-DBEA8D py-5px px-20px text-hex-000" target="_blank">See More</a></div>
-    <div class="gap-20px grid md:grid-cols-3 md:auto-rows-min"><img class="object-cover rounded-40px h-200px md:h-full md:aspect-square" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc9FnlDtHO1WPGHjIC-NkyDruSsSZijoT6VdRl0oyGrmBAgIErjPycND72vvMS2oOvU-2Zqi01oLyzTlVM9vorhngaS55JaL483DiQbrKxp1ZWiPMeOQ&amp;key=dkww0i%2F9xwoD8HhBTmwKa%2FN6MnKr38t2JBceKFNZv04%3D" width="4032" height="3024" loading="lazy" alt="Photo taken on 9/8/2022">
-        <div class="grid gap-20px"><img class="object-cover rounded-full h-100px md:h-120px" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc9_PYB35pEKPkCda4UUm9BIBw4VuM3BahpQBmboAhPcWo_VHHThMS8X57eCTl9m4HWiL6LMltZBkAWBevupCCEFQXUyUuoqb2oNP4CZaJyRBVIRjPaJ&amp;key=MNMjRERXB9bSHWSncxUtO1KnPZrJaQBVhxZB08hltHA%3D" width="3024" height="4032" loading="lazy" alt="Photo taken on 12/21/2022">
-            <div class="grid grid-cols-2 gap-20px"><img class="object-cover rounded-20px aspect-square" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc8ML_G3U6bVrohqmZ3xoKI1VKn4A557ivnNku5uiqP3Kn192IlWBlXUQ6Q21vmKazqmNOzuhyyv6RADKp-Bvx6tlP5t3yd04K9qXg6RqBTUCUHLTKs&amp;key=ebQBCV3skn8pAoz9MojOoSPy3zkd2hksC7UbQ3RpweY%3D" width="2267" height="4032" loading="lazy" alt="Photo taken on 6/18/2022">
-                <img class="object-cover rounded-20px aspect-square" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc_MciQ3UvIOvmpbBFywNMF6iFhKAOHs3WHwqAr0URVhQ9eqHed7VKJsB0gT3ef87DMPbq5I-mJ42ALTNZz6AAWaoFCeF8KM_A1q_c5NKOoukXtMG_6d&amp;key=xEYIt56Gmi91DlvJqI69U8WYxrf1341FpV3YYS%2BgTXI%3D" width="3024" height="4032" loading="lazy" alt="Photo taken on 6/19/2022"></div></div>
-        <img class="object-cover rounded-40px aspect-square" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc9aXSBE31doWKjcEn5dPWUwOa99P2uca-_LZoWqHTFsWhad6NjlqhJ9jjeQTCxpsZ9kpFVbs_XVNnHiY6HfKa3aNlcvbuWXnwuajK_sCRyRi_alFMvP&amp;key=1b2xclzQR1R4meEkdboSXebHqSgqy%2Fr3i88abjZvO0o%3D" width="4032" height="3024" loading="lazy" alt="Photo taken on 6/19/2022">
-
-        <div class="grid grid-cols-2 md:grid-cols-6 gap-20px md:col-span-3">
-            <img class="object-cover rounded-20px aspect-square h-auto" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc-IRfU-syVXh-JKEjoiBcZbGrAyN8cdc9UzlJNDBOgBXrYQ4Kz1JufTR7Jh7QpibJORlNxuqgh8TRree4f-RodLqvmhDk2hN0DCsWiTTJrsPGcqRdc&amp;key=uQ9ab9B1n1V2JobC50NDIE1SC4wKlAUdO%2Fi7TtuQuSU%3D" width="4022" height="3016" loading="lazy" alt="Photo taken on 7/8/2018"><img class="object-cover rounded-20px aspect-square h-auto" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc-KVIMIkmk5buEep2YLbTHm9VtGTZfEfDKcavKAgaT7niUzwvBp9FScz7BlHAJ3X3JY570BYIeu9pXFPDpDrc7VxfoT-WPoeMv7_t1XyxWqbcp82RI&amp;key=3egJXMUnNsY3j%2FWkNJS4mVCZjPXJj5jsZJLa8n3mWcE%3D" width="3016" height="4032" loading="lazy" alt="Photo taken on 7/9/2018"><img class="object-cover rounded-20px aspect-square h-auto" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc-KBZhVWhju_2pv7BEwgQQhoShb0Ed9dR4TTKB_tMRZqU932sJlvylyVKROyth1WQN4gIavsAMVkIXEVyx5Mg9sQG2FW0dMRhheWkNAoRzLkff4KJ8&amp;key=%2FJGFFx6Nx2b5MGp7jXmhdW2aCNeFP7tYmNx3i%2BxyI%2F0%3D" width="7036" height="2273" loading="lazy" alt="Photo taken on 7/9/2018"><img class="object-cover rounded-20px aspect-square h-auto" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc_2BIQjstX7h48Ve_bDoHhx091chcxQN08FVPNPvb2quU0hlQC7hAcoBon2whiygjX1krTo20mVAwM4U5N65B1Rsn0B_KKABxslbDWE07rCrAE4u6I&amp;key=GVHx2gVASwatpEnBkodrlri8VNwZPhGYkjVf8zswXJo%3D" width="4022" height="3016" loading="lazy" alt="Photo taken on 7/8/2018"><img class="object-cover rounded-20px aspect-square h-auto" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc9QjgVqNbMiTyoioqwr9LnqrOFzecTw8jV8lKtNGVPFNSZ6nJKKID4v57CamFn9d7lumOzpYnLRISG7MCjDzcG89w3MdUE9UtdtU86zI0G2jmwCsL8&amp;key=C7J5BcDuzFXSFMSFfRd2BhgPtwqfEQRDoXzFusSlGKY%3D" width="3016" height="4032" loading="lazy" alt="Photo taken on 7/9/2018"><img class="object-cover rounded-20px aspect-square h-auto" src="https://homepage-image-proxy.jimmycai.workers.dev/?url=https%3A%2F%2Flh3.googleusercontent.com%2Fpw%2FAIL4fc81j5hwaAwLWqN6oQqPY3XidjS6ZovzA1zAjOK8CDFgzkxQ5rFpcnHaIBZv0ajUa8GUNgXYqV5pRqjXVnnFZhWz4CHYTRMKBF0Xxkqzb7gVmmHZAqA&amp;key=%2BoB6cuHCsKf9F0NGzAmY5KSkbd7bzHqAUmE36P6z91U%3D" width="4032" height="3016" loading="lazy" alt="Photo taken on 7/9/2018"></div></div></div>
-
-			</div></div>
+<div class="sticky-image">
+  <img src="img.jpg" alt="Sticky Image" style="width:100%">
 </div>
 
-<script defer data-domain="jimmycai.com" src="https://stat.jimmycai.com/js/include.js"></script>
-
+<div class="cover-content">
+  <h1>Welcome to My Personal Page</h1>
+  <p>Scroll down to see the sticky effect.</p>
+  <p>Some more content...</p>
+  <p>Some more content...</p>
+  <p>Some more content...</p>
+  <!-- You can add more content here -->
 </div>
-	</body>
+
+</body>
 </html>
