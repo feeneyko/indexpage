@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "https://wkong.dev/*"
+  to = "https://bento.me/feeney"
+  force = true
